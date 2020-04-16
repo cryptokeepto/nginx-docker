@@ -3,3 +3,10 @@ docker run -d --name my-nginx -p 8080:80 -v $(pwd)/demo:/usr/share/nginx/html -v
 
 /usr/share/nginx/html
 /etc/nginx/
+
+
+check core cpu
+$ nproc
+
+check connection
+$ ulimit -a
